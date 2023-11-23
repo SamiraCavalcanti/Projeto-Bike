@@ -1,0 +1,63 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.cart-icon {
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* Estilos do corpo principal */
+.container {
+    margin-top: 20px;
+}
+
+.filtro-ordenacao {
+    margin-bottom: 20px;
+}
+
+.lista-produtos .card {
+    transition: transform 0.3s;
+}
+
+.lista-produtos .card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.card {
+    height: 100%;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Produtos - Loja de Bicicletas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_produtos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/cart-styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cliente.html">Área do Cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-icon" id="cart-icon">
+                <i class="fa fa-shopping-cart fa-2x"></i>
+                <span class="cart-count">0</span>
+            
+
+            </div>
+
+
+        </nav>
+    </header>
+
+
+
+    </div>
+
+    </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section class="filtro-ordenacao mb-4">
+            <!-- Adicione filtros de categoria, marca, preço, etc., e opções de ordenação aqui -->
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Filtros por categoria -->
+                    <label for="categoria">Categoria:</label>
+                    <select class="form-control" id="categoria" name="categoria">
+                        <option value="todas">Todas as Categorias</option>
+                        <option value="categoria1">Categoria 1</option>
+                        <option value="categoria2">Categoria 2</option>
+                        <!-- Adicione mais opções de categoria conforme necessário -->
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <!-- Filtros por marca -->
+                    <label for="marca">Marca:</label>
+                    <select class="form-control" id="marca" name="marca">
+                        <option value="todas">Todas as Marcas</option>
+                        <option value="marca1">Marca 1</option>
+                        <option value="marca2">Marca 2</option>
+                        <!-- Adicione mais opções de marca conforme necessário -->
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <!-- Opções de ordenação -->
+                    <label for="ordenacao">Ordenar por:</label>
+                    <select class="form-control" id="ordenacao" name="ordenacao">
+                        <option value="preco-crescente">Preço Crescente</option>
+                        <option value="preco-decrescente">Preço Decrescente</option>
+                        <!-- Adicione mais opções de ordenação conforme necessário -->
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="lista-produtos">
+            <!-- Listagem de produtos -->
+            <div class="row">
+                <!-- Exemplo de produto (replicar conforme necessário) -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="imagens\71jjmLY5WtL._AC_SX425_.jpg" class="card-img-top" alt="Produto 1" style="width: 100%; height: 300px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta Caloi</h5>
+                            <p class="card-text">Aro 29 Caloi Velox MY23</p>
+                            <p class="card-text">Preço: R$ 759,90</p>
+                            <a href="detalhe01.html" class="btn btn-primary" id="add-to-cart-1" data-product-name="Bicicleta Caloi" data-product-price="R$ 759.90">Detalhes do Produto</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="imagens\bicicleta_aro_29_sense_one_tam_m_7243_1_56275fd764b8366e852368cca6117aff.webp" class="card-img-top" alt="Produto 2" style="width: 100%; height: 300px;">
+
+
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta Aro 29 Sense One </h5>
+                            <p class="card-text"> 2021/22 Shimano - Freio Hidráulico - 21V </p>
+                            <p class="card-text">Preço: R$ 2.200,90</p>
+                            <a href="detalhe02.html" class="btn btn-primary" id="add-to-cart-2" data-product-name="Bicicleta Aro 29 Sense One" data-product-price="R$ 2.200,90">Detalhes do Produto</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="imagens\bicicleta_aro_29_sense.webp" class="card-img-top" alt="Produto 3" style="width: 100%; height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta Sense</h5>
+                            <p class="card-text">Aro 29 Impact Race</p>
+                            <p class="card-text">Preço: R$ 10.330,00</p>
+                            <a href="detalhe03.html" class="btn btn-primary" id="add-to-cart-3" data-product-name="Bicicleta Sense" data-product-price="R$ 10.330,00">Detalhes do Produto</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="imagens\71Y1CPQjOPL._AC_SX569_.jpg" class="card-img-top" alt="Produto 4" style="width: 100%; height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Capacete, Vollo Sports</h5>
+                            <p class="card-text">Laranja</p>
+                            <p class="card-text">Preço: R$ 79,90</p>
+                            <a href="detalhe04.html" class="btn btn-primary" id="add-to-cart-4" data-product-name="Capacete, Vollo Sports" data-product-price="R$ 79.90">Detalhes do Produto</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="imagens\b_bermuda-ciclismo-masculina-new-trip-sol-sports.jpg" class="card-img-top" alt="Produto 5" style="width: 100%; height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Bermuda Ciclismo </h5>
+                            <p class="card-text">Masculina New Trip</p>
+                            <p class="card-text">Preço: R$ 211,50</p>
+                            <a href="detalhe05.html" class="btn btn-primary" id="add-to-cart-5" data-product-name="Bermuda Ciclismo" data-product-price="R$ 211,50">Detalhes do Produto</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="imagens\b_bicicleta-scott-spark-rc-comp-2023-11.jpg" class="card-img-top" alt="Produto 6" style="width: 100%; height: 300px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Bicicleta Scott Spark RC 2023</h5>
+                            <p class="card-text">Quadro: Spark RC Carbon HMF </p>
+                            <p class="card-text">Preço: R$ 37.999,05</p>
+                            <a href="detalhe06.html" class="btn btn-primary" id="add-to-cart-6" data-product-name="Bicicleta Scott Spark RC 2023" data-product-price="R$ 37.999,05">Detalhes do Produto</a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+    

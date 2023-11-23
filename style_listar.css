@@ -1,0 +1,42 @@
+/* styles_lista_produtos.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('imagens/incrivel-mountain-bike_3833_1024x768.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color:  #ddd; /* Cor do título */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50; /* Cor de fundo do cabeçalho da tabela */
+    color: #fff; /* Cor do texto no cabeçalho da tabela */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo das linhas pares da tabela */
+}
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Cor de fundo das linhas ímpares da tabela */
+}
+
+/* Adicione outros estilos conforme necessário */

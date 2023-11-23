@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Área do Cliente - Loja de Bicicletas</title>
+    <!-- Links para os arquivos CSS do Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- Barra de navegação -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cliente.html">Área do Cliente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mt-4">
+      <section class="perfil">
+        <div class="card">
+          <h2 class="card-header">Perfil do Cliente</h2>
+          <div class="card-body">
+            <p class="card-text">Nome: João da Silva</p>
+            <p class="card-text">Email: joao@example.com</p>
+            <p class="card-text">Endereço: Rua ABC, 123</p>
+            <a href="#" class="btn btn-primary">Editar Perfil</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="historico-pedidos">
+        <div class="card">
+          <h2 class="card-header">Histórico de Pedidos</h2>
+          <div class="card-body">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">ID do Pedido: #12345</p>
+                <p class="card-text">Data: 20 de Novembro, 2023</p>
+                <p class="card-text">Total: R$ XX,XX</p>
+                <a href="#" class="btn btn-primary">Detalhes do Pedido</a>
+              </div>
+            </div>
+            <!-- Repetir a estrutura acima para cada pedido -->
+          </div>
+        </div>
+      </section>
+
+      <section class="opcoes-pagamento">
+        <div class="card">
+          <h2 class="card-header">Opções de Pagamento</h2>
+          <div class="card-body">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Cartão MasterCard ****1234</p>
+                <a href="#" class="btn btn-primary">Editar Cartão</a>
+                <a href="#" class="btn btn-danger">Excluir Cartão</a>
+              </div>
+            </div>
+            <!-- Adicionar opção para adicionar novo cartão -->
+            <a href="#" class="btn btn-success">Adicionar Novo Cartão</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2023 Loja de Bicicletas</p>
+    </footer>
+
+    <!-- Links para os arquivos JavaScript do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

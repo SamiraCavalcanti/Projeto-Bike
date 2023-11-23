@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Detalhes do Produto - Loja de Bicicletas</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/cart-styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../cliente.html">Área do Cliente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contato.html">Contatos</a>
+            </li>
+          </ul>
+        </div>
+        <div class="cart-icon">
+          <a href="#">
+            <i class="fa fa-shopping-cart fa-2x"></i>
+            <span class="cart-count">0</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mt-4">
+      <section class="detalhes-produto">
+        <!-- Detalhes do produto selecionado -->
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="imagens\bicicleta_aro_29_sense.webp"
+              class="img-fluid"
+              alt="Produto 3"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>Nome do Produto 3</h2>
+            <p>Descrição detalhada do produto.</p>
+            <p>Preço: R$ XX,XX</p>
+            <!-- Adicione opções de compra, como botões para adicionar ao carrinho ou comprar agora -->
+            <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+            <a href="../checkout.html" class="btn btn-success">Comprar Agora</a>
+            <!-- Adicione avaliações, opções de compartilhamento, informações técnicas, etc. -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Adicione scripts personalizados conforme necessário -->
+  </body>
+</html>
